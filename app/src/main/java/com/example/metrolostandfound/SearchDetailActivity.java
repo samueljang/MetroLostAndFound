@@ -21,7 +21,7 @@ import java.util.Calendar;
 import java.util.List;
 
 public class SearchDetailActivity extends AppCompatActivity {
-
+    Intent intent = new Intent(getApplicationContext(),ObjectViewActivity.class);
     private TextView searchDetailDateTextView1;
     private TextView searchDetailDateTextView2;
 
@@ -112,6 +112,7 @@ public class SearchDetailActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 choice_station = searchAdapterStation.getItem(position).toString();
+                intent.putExtra("Station","choice_station");
             }
 
             @Override
@@ -132,9 +133,10 @@ public class SearchDetailActivity extends AppCompatActivity {
                     List<String> subList = new ArrayList<>();
                     subList.add("모두");
                     subList.addAll(ObjectCategory.getSubCategories(choice_big));
-
+                    intent.putExtra("mc","choice_big");
                     searchAdapterSmall = new ArrayAdapter(getApplicationContext(), R.layout.support_simple_spinner_dropdown_item, subList);
                     searchSpinnerSmall.setAdapter(searchAdapterSmall);
+                    intent.putExtra("sc","searchAdapterSmall");
                 }
             }
 
@@ -169,6 +171,7 @@ public class SearchDetailActivity extends AppCompatActivity {
                 month = m + 1;
                 date = d;
                 searchDetailDateTextView1.setText(" " + year +"/"+ month +"/ "+ date + " ");
+                intent.putExtra("date","" + year +"/"+ month +"/ "+ date + "" );
             }
         }, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DATE));
 
@@ -184,6 +187,7 @@ public class SearchDetailActivity extends AppCompatActivity {
                 month = m + 1;
                 date = d;
                 searchDetailDateTextView2.setText(" " + year +"/"+ month +"/ "+ date + " ");
+                intent.putExtra("date2","" + year +"/"+ month +"/ "+ date + "" );
             }
         }, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DATE));
 
@@ -198,6 +202,7 @@ public class SearchDetailActivity extends AppCompatActivity {
                 hour = h;
                 minute = m;
                 searchDetailTimeTextView1.setText(" " + String.format("%02d", hour) + " : " + String.format("%02d", minute) + " ");
+                intent.putExtra("time"," " + String.format("%02d", hour) + " : " + String.format("%02d", minute) + " ");
             }
         }, cal.get(Calendar.HOUR), cal.get(Calendar.MINUTE), false);
 
@@ -213,6 +218,7 @@ public class SearchDetailActivity extends AppCompatActivity {
                 hour = h;
                 minute = m;
                 searchDetailTimeTextView2.setText(" " + String.format("%02d", hour) + " : " + String.format("%02d", minute) + " ");
+                intent.putExtra("time2"," " + String.format("%02d", hour) + " : " + String.format("%02d", minute) + " ");
             }
         }, cal.get(Calendar.HOUR), cal.get(Calendar.MINUTE), false);
 

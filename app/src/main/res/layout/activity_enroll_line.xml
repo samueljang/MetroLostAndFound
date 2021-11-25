@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="습득하신 호선과 역 그리고"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/notice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/notice"
+            android:text="습득하신 날짜와 시간을 알려주세요"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="end"
+                android:text="호선:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/enrollLineSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="65dp"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/linear1"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="end"
+                android:text="역:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/enrollStationSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="65dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:paddingHorizontal="10dp"
+            android:layout_below="@+id/linear2"
+            android:id="@+id/linear3"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="end"
+                android:text="날짜:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enrollDateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:text="  2021 - 12 - 01  "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:paddingHorizontal="10dp"
+            android:layout_below="@+id/linear3"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="end"
+                android:text="시간:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enrollTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:text="  PM  1 0  :  0  0  "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_Enroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="다음으로" />
+    </RelativeLayout>
+
+
+</LinearLayout>

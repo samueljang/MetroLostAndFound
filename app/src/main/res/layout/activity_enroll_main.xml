@@ -13,7 +13,7 @@
         android:layout_weight="8"
         android:gravity="center"
         android:text="어떤 물건을 습득하셨나요???"
-        android:textColor="@color/black"
+        android:textColor="@color/korailBlue"
         android:textSize="24dp" />
 
     <LinearLayout
@@ -27,7 +27,9 @@
                 android:id="@+id/btn_Acc"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="귀중품"
                 />
@@ -36,6 +38,8 @@
                 android:id="@+id/btn_Bag"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
                 android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="가방"
@@ -45,6 +49,9 @@
                 android:id="@+id/btn_Book"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="도서" />
 
@@ -52,6 +59,9 @@
                 android:id="@+id/btn_Glasses"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="안경" />
 
@@ -66,18 +76,27 @@
                 android:id="@+id/btn_Tool"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="공구" />
             <Button
                 android:id="@+id/btn_Sport"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="스포츠 용품" />
             <Button
                 android:id="@+id/btn_Cloth"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="의류" />
 
@@ -85,6 +104,9 @@
                 android:id="@+id/btn_Car"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="자동차" />
         </LinearLayout>
@@ -99,24 +121,36 @@
                 android:id="@+id/btn_Elect"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="전자기기" />
             <Button
                 android:id="@+id/btn_Wallet"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="지갑" />
             <Button
                 android:id="@+id/btn_Paper"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="증명서" />
             <Button
                 android:id="@+id/btn_Cash"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="현금" />
 
@@ -131,6 +165,9 @@
                 android:id="@+id/btn_Card"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="카드" />
 
@@ -138,6 +175,9 @@
                 android:id="@+id/btn_Phone"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="휴대폰" />
 
@@ -145,11 +185,17 @@
                 android:id="@+id/btn_Etc"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="기타 용품" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_weight="1"
                 android:text="" />
 

@@ -12,14 +12,6 @@
         android:layout_marginTop="100dp">
 
 
-        <Button
-            android:id="@+id/acc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="115dp"
-            android:layout_marginTop="50dp"
-            android:gravity="center"
-            android:text="증명서" />
 
         <TextView
             android:id="@+id/notice"
@@ -30,8 +22,8 @@
             android:layout_marginTop="57dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:text="            군요!"
-            android:textColor="@color/black"
+            android:text="증명서 군요!"
+            android:textColor="@color/korailBlue"
             android:textSize="24dp"
             android:gravity="center"/>
         <TextView
@@ -45,7 +37,7 @@
             android:layout_marginBottom="10dp"
             android:layout_below="@+id/notice"
             android:text="어떤 종류인가요??"
-            android:textColor="@color/black"
+            android:textColor="@color/korailBlue"
             android:textSize="24dp"
             android:gravity="center"/>
 
@@ -62,6 +54,9 @@
                 android:id="@+id/btn_Id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_marginRight="20dp"
                 android:text="신분증" />
 
@@ -69,6 +64,9 @@
                 android:id="@+id/btn_License"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_marginLeft="20dp"
                 android:text="면허증" />
 
@@ -89,6 +87,9 @@
                 android:id="@+id/btn_Passport"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_marginRight="20dp"
                 android:text="여권" />
 
@@ -96,6 +97,9 @@
                 android:id="@+id/btn_Else"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="16dp"
                 android:layout_marginLeft="20dp"
                 android:text="기타" />
 

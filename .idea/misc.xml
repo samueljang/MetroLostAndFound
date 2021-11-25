@@ -60,6 +60,7 @@
         <entry key="app/src/main/res/layout/activity_enroll_card.xml" value="0.33559782608695654" />
         <entry key="app/src/main/res/layout/activity_enroll_cash.xml" value="0.33559782608695654" />
         <entry key="app/src/main/res/layout/activity_enroll_cloth.xml" value="0.33559782608695654" />
+        <entry key="app/src/main/res/layout/activity_enroll_electronics.xml" value="0.240625" />
         <entry key="app/src/main/res/layout/activity_enroll_glasses.xml" value="0.33559782608695654" />
         <entry key="app/src/main/res/layout/activity_enroll_line.xml" value="0.33559782608695654" />
         <entry key="app/src/main/res/layout/activity_enroll_main.xml" value="0.45" />
@@ -68,6 +69,8 @@
         <entry key="app/src/main/res/layout/activity_enroll_paper.xml" value="0.33559782608695654" />
         <entry key="app/src/main/res/layout/activity_enroll_password.xml" value="0.33559782608695654" />
         <entry key="app/src/main/res/layout/activity_enroll_phone.xml" value="0.33559782608695654" />
+        <entry key="app/src/main/res/layout/activity_enroll_tool.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_enroll_wallet.xml" value="0.240625" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.33559782608695654" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33559782608695654" />
       </map>
